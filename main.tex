@@ -1,0 +1,23 @@
+\documentclass{zebracorns} 
+
+\title{Zebracorn Template}
+\author{The Zebracorns}
+\date{Date Published}
+
+
+\begin{document}
+  \maketitle
+
+  \section{Introduction}
+  \label{intro}
+  This is an example of how to do a section and how to add an image
+
+  \begin{figure}[H] % H says put image exactly where it is in code
+    \centering %center alignment, default is left
+    \includegraphics[width=.5\linewidth]{Logo-Stacked-Mono.png} %image is 1/2 of line width
+    \caption{This is how you add an image with a caption. you can also make it smaller}
+    \label{Zebracorn Logo} %this means it will show up in ToC
+  \end{figure}
+  
+  More examples can be found in the cls file
+\end{document}
